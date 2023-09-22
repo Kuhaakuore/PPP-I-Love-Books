@@ -16,4 +16,5 @@ model books {
   read         Boolean  @default(false)
   grade        Int?
   review       String?
+  cover        String
 }
